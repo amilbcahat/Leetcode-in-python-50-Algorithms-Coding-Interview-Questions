@@ -12,7 +12,7 @@ class Solution:
         carry = 0
         sum = 0
 
-        while(l1!=None or l2!=None):
+        while(l1!=None or l2!=None or carry != 0):
             sum = carry
             if(l1!=None):
                 sum+=l1.val
